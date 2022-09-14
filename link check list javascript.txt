@@ -1,0 +1,3 @@
+Javascript: https://docs.google.com/spreadsheets/d/167Wbqe-sGjyVr63zZTfN5hRcpzWFc9fACwMonmoq27s/edit#gid=0
+NodeJS: https://docs.google.com/spreadsheets/d/1gQT52STJ-5FuH_cxbBepVfCMmZebPjaWx7ZoVzUpkRI/edit#gid=0
+ReactJS: https://docs.google.com/spreadsheets/d/1w-fGSdVgHWzU9ep3VfGlj1Pr2WUJb4CkThm8okA-zeY/edit#gid=0
