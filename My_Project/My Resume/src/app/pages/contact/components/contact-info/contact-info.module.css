@@ -1,0 +1,30 @@
+.contactInfoItem {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #272829;
+    margin-bottom: 12px;
+}
+
+.contactInfoItem > span {
+    color: #333333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contactInfoSocials {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactInfoSocials > a {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 20px;
+    color: #333333;
+}
+
+.contactInfoSocials > a:hover {
+    color: gray;
+}
