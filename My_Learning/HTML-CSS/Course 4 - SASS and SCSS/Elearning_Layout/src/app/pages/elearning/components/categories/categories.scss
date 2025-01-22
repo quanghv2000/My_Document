@@ -1,0 +1,35 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.categories {
+  margin: 32px;
+
+  &-content {
+    width: 90%;
+    margin: auto;
+
+    h2 {
+      @include setFontSize(24px);
+      margin-bottom: 20px;
+    }
+
+    .categories-item {
+      cursor: pointer;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-radius: 2px;
+      border: 1px solid rgba(20, 23, 28, 0.1);
+      @include setFontSize(18px);
+
+      i {
+        margin-right: 8px;
+      }
+
+      &:hover {
+        box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+          0 3px 1px 0 rgba(20, 23, 28, 0.1);
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,11 @@
+const ADD_NEW_USER = 'ADD_NEW_USER';
+const EDIT_USER = 'EDIT_USER';
+const UPĐATE_USER = 'UPĐATE_USER';
+const DELETE_USER = 'DELETE_USER';
+
+export {
+    ADD_NEW_USER,
+    EDIT_USER,
+    UPĐATE_USER,
+    DELETE_USER,
+}

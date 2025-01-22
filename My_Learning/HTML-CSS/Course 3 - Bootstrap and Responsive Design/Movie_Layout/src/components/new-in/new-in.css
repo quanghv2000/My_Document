@@ -1,0 +1,16 @@
+.card {
+    cursor: pointer;
+    border: none;
+}
+
+.card > img {
+    border-radius: 10px;
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.card-body .star .fa-star {
+    color: #fbbd61;
+}

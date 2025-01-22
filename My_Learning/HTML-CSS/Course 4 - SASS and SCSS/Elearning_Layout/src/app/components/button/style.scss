@@ -1,0 +1,34 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.btn {
+  cursor: pointer;
+  border: 1px solid;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.btn-white {
+  color: $color-gray-0;
+  background-color: $color-white-0;
+  border-color: $color-black-light;
+
+  &:hover {
+    color: $color-black-0;
+    border-color: $color-black-0;
+    background-color: transparent;
+  }
+}
+
+.btn-red {
+  color: $color-white-0;
+  background-color: $color-red-0;
+  border-color: $color-red-0;
+
+  &:hover {
+    color: $color-white-0;
+    border-color: $color-red-1;
+    background-color: $color-red-1;
+  }
+}

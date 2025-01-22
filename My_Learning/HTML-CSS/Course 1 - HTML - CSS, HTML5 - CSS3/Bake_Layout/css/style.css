@@ -1,0 +1,447 @@
+/* Global */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #212529;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+    background-color: #ff0e83;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 32px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #333;
+    border-color: #ff0e83;
+}
+
+/* Header */
+
+header {
+    background-color: #4e2a84;
+    color: white;
+    padding: 20px 0px;
+}
+
+header .header-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-content p {
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+header .header-content nav ul li {
+    display: inline-block;
+    margin: 0px 1rem;
+}
+
+header .header-content nav ul .active a {
+    color: #ff0e83;
+}
+
+header .header-content nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+header .header-content nav ul li a:hover {
+    color: #ff0e83;
+}
+
+/* Carousel */
+
+.carousel {
+    background-image: url("../img/b3.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-content {
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel .carousel-content h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.carousel .carousel-content p {
+    font-size: 1.0625rem;
+    padding: 25px 0px;
+}
+
+/* Intro */
+
+.intro {
+    display: grid;
+    /* grid-template-columns: repeat(4, 25%); */
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.intro-ab1 {
+    /* grid-column: 2 / 4; */
+    grid-column: 2 / span 2;
+}
+
+.intro-bake {
+    /* grid-column: 1 / 3; */
+    grid-column: 1 / span 2;
+}
+
+.intro-ab4 {
+    /* grid-column: 3 / 5; */
+    grid-column: 3 / span 2;
+}
+
+.intro .intro-item img {
+    width: 100%;
+    display: block;
+}
+
+.intro .intro-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro .intro-text {
+    padding: 0px 32px;
+}
+
+
+.intro .intro-item h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.intro .intro-item p {
+    color: #c1c1c1;
+    font-size: 0.875rem;
+    line-height: 29px;
+}
+
+.intro .intro-item:nth-child(1) {
+    background-color: #4e2a84;
+}
+
+.intro .intro-item:nth-child(3) {
+    background-color: #ff0e83;
+}
+
+.intro .intro-item:nth-child(4) {
+    background-color: #ed6498;
+}
+
+.intro .intro-item:nth-child(6) {
+    background-color: #836eaa;
+}
+
+.intro .intro-item:nth-child(7) {
+    background-color: #836eaa;
+}
+
+.intro .intro-item:nth-child(8) {
+    background-color: #4e2a84;
+}
+
+/* Number */
+
+.number {
+    padding: 70px 0px;
+}
+
+.number .number-content {
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    justify-content: space-around;
+    text-align: center;
+    color: #4e2a84;
+}
+
+.number .number-content p:first-child {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.number .number-content p:nth-child(2) {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+/* Services */
+
+.services {
+    background-image: url("../img/s1.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 70px 0px 120px;
+}
+
+.services h2 {
+    color: white;
+}
+
+.services .services-content {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.services .services-content .services-item {
+    padding: 0 20px;
+}
+
+.services .services-content .services-item i {
+    width: 105px;
+    height: 105px;
+    background-color: white;
+    color: #4e2a84;
+    border: 1px solid #4e2a84;
+    border-radius: 50%;
+    font-size: 3.75rem;
+    line-height: 105px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.services .services-content .services-item i:hover {
+    color: #ff0e83;
+    cursor: pointer;
+}
+
+.services .services-content .services-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px 0px;
+    color: #4e2a84;
+}
+
+.services .services-content .services-item p {
+    font-size: 00.875rem;
+    line-height: 25px;
+    padding-bottom: 12px;
+    color: #4e2a84;
+}
+
+.services .services-content .services-item .button {
+    padding: 12px 27px;
+    border-width: 2px;
+}
+
+/* Gallery */
+
+.gallery {
+    padding: 50px 0px;
+}
+
+.gallery .gallery-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.gallery .gallery-content .g-1 {
+    /* grid-column: 1 / 3; */
+    grid-column: 1 / span 2;
+}
+
+.gallery .gallery-content .g-end {
+    /* grid-column: 3 / 5; */
+    grid-column: 3 / span 2;
+}
+
+.gallery .gallery-content .gallery-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.gallery .gallery-content .gallery-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery .gallery-content .gallery-item .gallery-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 132, 163, 0.2);
+    padding: 38px 28px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+}
+
+.gallery .gallery-content .gallery-item .gallery-overlay h3 {
+    font-size: 2.3rem;
+    transform: translateY(20px);
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+.gallery .gallery-content .gallery-item .gallery-overlay p {
+    position: absolute;
+    bottom: 38px;
+    right: 28px;
+    font-size: 1.2rem;
+    transform: translateY(50px);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.7s;
+}
+
+.gallery .gallery-content .gallery-item .gallery-overlay h3::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    display: block;
+    margin-top: 10px;
+    transform: translateY(20px);
+    transition-property: all;
+    transition-duration: 0.7s;
+    opacity: 0;
+}
+
+.gallery-item:hover .gallery-overlay h3 {
+    transform: translateY(0) !important;
+}
+
+.gallery-item:hover .gallery-overlay h3::after {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+}
+
+.gallery-item:hover .gallery-overlay p {
+    transform: translateY(0) !important;
+    opacity: 1 !important;
+}
+
+/* Team */
+
+.team {
+    background-color: #4e2a84;
+}
+
+.team h2 {
+    color: white;
+    padding-top: 50px;
+}
+
+.team .team-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 40px;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.team .team-content .team-item img {
+    width: 100%;
+    display: block;
+}
+
+.team .team-content .team-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.team .team-content .team-item:hover .team-detail {
+    opacity: 1;
+}
+
+.team .team-content .team-item .team-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ff0e83;
+    color: white;
+    width: 100%;
+    padding: 30px;
+}
+
+.team .team-content .team-item .team-title, .team-detail h3 {
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.team .team-content .team-item .team-title, .team-detail p {
+    font-size: 0.875rem;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.team .team-content .team-item .team-detail {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 100px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+}
+

@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.app-line::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #fbbd61, #ec7532);
+    box-shadow: 0 0 20px 0 #fbbd61;
+    transition: 0.5s;
+}
+
+.app-line:hover::after {
+    cursor: pointer;
+    width: 100%;
+}
+
+.app-line.active::after {
+    width: 100%;
+}
+
+.title {
+    color: #ec7532;
+    font-size: 1.125rem;
+    border-bottom: 1px solid #d8d8d8;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    margin: 40px 0px;
+}
+
+.title::after {
+    content: "";
+    background: linear-gradient(to right, #fbbd61, #ec7532);
+    width: 125px;
+    height: 4px;
+    display: block;
+    margin-top: 20px;
+}

@@ -1,0 +1,15 @@
+@keyframes glassesChangeAnimation {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+
+.glasses {
+    width: 250px;
+    animation: glassesChangeAnimation;
+    animation-duration: 1s;
+}

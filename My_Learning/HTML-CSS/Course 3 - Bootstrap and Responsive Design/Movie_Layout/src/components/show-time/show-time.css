@@ -1,0 +1,67 @@
+.show-time .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none;
+}
+
+.show-time .nav-tabs .nav-link {
+    border: none;
+    padding: 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+}
+
+.show-time .nav-tabs .nav-link.active{
+    color: #ec7532 !important;
+    font-weight: bold;
+}
+
+.show-time .nav-tabs .nav-item {
+    margin-bottom: 0px;
+}
+
+.show-time .nav-tabs .nav-link>span {
+    display: block;
+    padding: 15px 30px;
+}
+
+#myShowTimeContent img {
+    border-radius: 10px;
+}
+
+#myShowTimeContent div p:first-of-type {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ec7532;
+    margin-bottom: 0px;
+}
+
+#myShowTimeContent div h3 {
+    color: #101010;
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#myShowTimeContent .viewing-time {
+    display: flex;
+    align-items: center;
+}
+
+#myShowTimeContent .viewing-time .show-times {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myShowTimeContent .viewing-time .show-times button {
+    padding: 2px 8px;
+    margin-right: 15px;
+}
+
+#myShowTimeContent .show-time-item {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#myShowTimeContent .show-time-item:last-child {
+    border-bottom: none;
+}

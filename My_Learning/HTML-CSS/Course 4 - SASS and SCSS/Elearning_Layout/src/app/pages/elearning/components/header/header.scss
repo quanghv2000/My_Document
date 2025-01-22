@@ -1,0 +1,66 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.elearning-navbar {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1),
+    0 3px 1px 0 rgba(20, 23, 28, 0.1);
+
+  .navbar-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .navbar-logo {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    .navbar-categories {
+      flex-grow: 1;
+      text-align: center;
+      cursor: pointer;
+      color: $color-black-light;
+      @include setFontSize(14px);
+
+      i {
+        color: $color-gray-3;
+      }
+
+      span {
+        margin-left: 6px;
+      }
+    }
+
+    .navbar-form-search {
+      flex-grow: 8;
+      text-align: center;
+    }
+    .navbar-logo > a > img {
+      width: 110px;
+    }
+  }
+
+  .navbar-right {
+    .navbar-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+
+      .nav-item {
+        a {
+          color: $color-black-light;
+          @include setFontSize(14px);
+
+          .fa-shopping-cart {
+            @include setFontSize(20px);
+          }
+        }
+        
+        .overlay {
+          display: none;
+        }
+      }
+    }
+  }
+}

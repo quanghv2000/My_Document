@@ -1,0 +1,36 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.intro {
+  background: linear-gradient(-45deg, #ec5252, #6e1a52);
+  color: $color-white-0;
+  padding: 20px 12%;
+
+  &-content {
+    .row > .col-4 > .intro-item {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        @include setFontSize(50px);
+        margin-right: 20px;
+      }
+
+      .text {
+        p {
+          padding: 0px;
+          margin: 0px;
+        }
+
+        p:first-child {
+          font-weight: bold;
+          @include setFontSize(20px);
+        }
+
+        p:last-child {
+          @include setFontSize(16px);
+        }
+      }
+    }
+  }
+}

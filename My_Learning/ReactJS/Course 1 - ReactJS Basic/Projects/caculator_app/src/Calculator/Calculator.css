@@ -1,0 +1,47 @@
+.container {
+    height: auto;
+    background-color: black;
+    border-radius: 1rem;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    width: 450px;
+}
+
+.screen {
+    color: white;
+    padding: 0.2rem;
+    text-align: right;
+    font-size: 32px;
+}
+
+.btn {
+    place-content: center;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.light-gray {
+    background-color: gray;
+    color: #333;
+}
+
+.light-gray:hover {
+    background-color: lightgray;
+}
+
+.btn-orange {
+    background-color: orange;
+}
+
+.btn-orange:hover {
+    background-color: lightgray;
+}

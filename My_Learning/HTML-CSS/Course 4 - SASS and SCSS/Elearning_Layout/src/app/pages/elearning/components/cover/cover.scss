@@ -1,0 +1,27 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.cover {
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-content {
+    top: 50%;
+    left: 12%;
+    max-width: 500px;
+    position: absolute;
+    transform: translateY(-50%);
+
+    h1 {
+      color: $color-white-0;
+      font-weight: bold;
+    }
+
+    p {
+      color: $color-white-0;
+    }
+  }
+}

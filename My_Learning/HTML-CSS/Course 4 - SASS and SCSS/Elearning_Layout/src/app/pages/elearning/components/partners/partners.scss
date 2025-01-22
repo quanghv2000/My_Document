@@ -1,0 +1,24 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.partners {
+  color: $color-gray-0;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: $color-gray-5;
+
+  &-title {
+    margin-bottom: 20px;
+
+    h3 {
+      @include setFontSize(18px);
+    }
+  }
+
+  &-content {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+}

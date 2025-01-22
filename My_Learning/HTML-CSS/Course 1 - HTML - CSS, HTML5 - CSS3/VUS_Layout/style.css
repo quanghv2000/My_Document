@@ -1,0 +1,134 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Header */
+
+.header .header-logo .img {}
+
+.header .header-logo .logo-left {
+    float: left;
+}
+
+.header .header-logo .logo-right {
+    float: right;
+    margin-right: 120px;
+}
+
+.header .header-nav ul {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 2px solid #E8E8E8;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.header .header-nav ul li {
+    display: inline-block;
+}
+
+.header .header-nav ul .active {
+    border-bottom: 2px solid #B31C25;
+}
+
+
+.header .header-nav ul li:hover {
+    display: inline-block;
+    border-bottom: 2px solid #B31C25;
+}
+
+.header .header-nav ul li a {
+    color: #636363;
+    text-transform: uppercase;
+    padding: 0 0.3em;
+    font-weight: bold;
+    font-size: 1.13vw;
+}
+
+/* Carousel */
+
+.carousel {
+    background-image: url("./img/slider_1.png");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+/* Intro */
+
+.line {
+    background-image: url("./img/line.png");
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 25px 0px;
+}
+
+.intro p {
+    color: #636363;
+    text-align: center;
+    line-height: 25px;
+    padding: 0px 25px;
+}
+
+/* Programs */
+
+.programs .programs-content .programs-item {
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.programs .programs-content .programs-item img {
+    width: 100%;
+}
+
+.programs .programs-content .programs-item h3 {
+    color: #B31C25;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px 0px 0px;
+}
+
+.programs .programs-content .programs-item p {
+    margin-top: 5px;
+}
+
+/* News */
+.news .news-content {
+    text-align: center;
+    margin: auto;
+}
+
+.news .news-content img {
+    width: 80%;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #B31C25;
+}
+
+.footer img {
+    padding: 25px;
+}

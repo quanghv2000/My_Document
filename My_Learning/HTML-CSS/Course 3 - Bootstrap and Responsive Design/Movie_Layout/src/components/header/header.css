@@ -1,0 +1,24 @@
+header {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+header p {
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+#movieCollapsibleNavId .navbar-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#movieCollapsibleNavId .navbar-nav .nav-link {
+    color: white;
+    letter-spacing: 3px;
+    line-height: 0.8em;
+    font-size: 16px;
+    padding: 20px 24px;
+}

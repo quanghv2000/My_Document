@@ -1,0 +1,27 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.banner {
+    height: 325px;
+    text-align: center;
+    background-blend-mode: overlay;
+    background: linear-gradient(61deg, $color-purple-0, $color-blue-1 41%);
+    color: $color-white-0;
+    display: flex;
+    align-items: center;
+
+    &-content {
+        h2 {
+            @include setFontSize(36px);
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .btn-sign-up, .logo {
+            margin-top: 20px;
+        }
+    }
+}

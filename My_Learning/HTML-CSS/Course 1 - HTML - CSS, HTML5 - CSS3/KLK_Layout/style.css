@@ -1,0 +1,197 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Header */
+
+.header img {
+    width: 250px;
+}
+
+.header ul {
+    background-color: #333;
+    padding: 15px 0px;
+    margin: 5px 0px;
+}
+
+.header ul li {
+    display: inline;
+    margin: 0px 20px;
+}
+
+.header ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Carousel */
+
+.carousel {
+    background-image: url("./img/slider_1.jpg");
+    background-size: cover;
+    height: 710px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Intro */
+
+.intro p {
+    font-size: 20px;
+}
+
+.intro p span {
+    color: red;
+    font-weight: bold;
+}
+
+.intro .intro-content .intro-content-left,
+.intro-content-right {
+    float: left;
+    width: 50%;
+}
+
+.intro .intro-content .intro-content-left .top {
+    float: left;
+    width: 50%;
+}
+
+.intro .intro-content .intro-item {
+    padding: 0px 15px 25px;
+}
+
+.intro .intro-content img {
+    width: 100%;
+    display: block;
+}
+
+/* Products */
+
+.products {
+    margin-bottom: 70px;
+}
+
+.products .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.products .products-content .products-item {
+    float: left;
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.products .products-content .products-item img {
+    width: 100%;
+}
+
+.products .products-content .products-item h3 {
+    font-size: 20px;
+}
+
+.products .products-content .products-item p {
+    font-size: 16px;
+}
+
+.products .products-content .products-item button {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url("./img/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.banner .banner-circle {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(131, 41, 39, 0.8);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    /* opacity: 0.8; */
+    position: absolute;
+    top: 20px;
+    left: 340px;
+}
+
+.banner .banner-circle p {
+    font-size: 20px;
+    /* margin: 0px; */
+}
+
+.banner .banner-circle p:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.banner .banner-circle p:nth-child(2) {
+    font-size: 80px;
+    margin: 0px;
+}
+
+.banner .banner-circle p:nth-child(3) {
+    margin: 15px 0px;
+}
+
+/* Services */
+
+.services {
+    margin: 20px 0px 10px;
+}
+
+.services .services-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.services .services-content .services-item {
+    float: left;
+    width: 33.33%;
+    padding: 0px 15px;
+}
+
+.services .services-content .services-item i {
+    font-size: 32px;
+}
+
+.services .services-content .services-item h2 {
+    margin: 10px 0px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.footer h2, p {
+    margin: 3px;
+}

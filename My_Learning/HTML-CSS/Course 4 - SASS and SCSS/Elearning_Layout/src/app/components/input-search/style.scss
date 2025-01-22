@@ -1,0 +1,54 @@
+@import "src/scss/helpers/variables";
+@import "src/scss/helpers/mixins";
+
+.input-group {
+  border-radius: 0.25rem;
+  background-color: $color-white-cream;
+
+  input {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none !important;
+    transition: none;
+    color: $color-black-light;
+
+    &::placeholder {
+      color: $color-black-light;
+    }
+
+    &:focus {
+      background-color: $color-white-0;
+      border-top-color: $color-gray-4;
+      border-bottom-color: $color-gray-4;
+      border-left-color: $color-gray-4;
+      border: none !important;
+    }
+
+    &:focus + .input-group-append > span {
+      cursor: pointer;
+      background-color: $color-white-0;
+      border-top-color: $color-gray-4;
+      border-bottom-color: $color-gray-4;
+      border-right-color: $color-gray-4;
+      color: $color-red-0;
+      border: none !important;
+
+      &:hover {
+        color: $color-white-0;
+        background-color: $color-red-0;
+      }
+    }
+  }
+
+  .input-group-append > span {
+    cursor: pointer;
+    border-color: transparent;
+    background-color: transparent;
+    color: $color-red-0;
+
+    &:hover {
+      color: $color-white-0;
+      background-color: $color-red-0;
+    }
+  }
+}
